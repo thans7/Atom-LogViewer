@@ -1,0 +1,25 @@
+'scopeName' : 'source.exactaLogs'
+'name' : 'Exacta Logs'
+'fileTypes' : ['txt']
+'patterns' : [
+  {
+    'match' : 'INFO|DEBUG'
+    'name' : 'string.quoted'
+  },
+  {
+    'match' : 'ERROR|FATAL'
+    'name' : 'invalid.illegal'
+  },
+  {
+    'match' : '[0-9][0-9]:[0-9][0-9]:[0-9][0-9]\.[0-9]*'
+    'name' : 'comment.block.documentation.cs'
+  },
+  {
+    'match' : ' +at .*\n'
+    'name' : 'storage.modifier'
+  },
+  {
+    'match' : ' \\([a-zA-Z]+\\) '
+    'name' : 'support.function'
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle exacta-package",
+        "command": "exacta-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "exacta-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "exacta-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
